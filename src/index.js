@@ -1,10 +1,10 @@
-import component from "./vue-scroll-state.vue";
+import component from "./vue-visibility-trigger.vue";
 
 // install function executed by Vue.use()
 export function install(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component("VueScrollState", component);
+  Vue.component("VueVisibilityTrigger", component);
 }
 
 // create module definition for Vue.use()

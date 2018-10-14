@@ -6,14 +6,14 @@
       
       <div class="scroll-mark">keep scrolling!</div>
       
-      <VueScrollState class="highlight" @scrolledIn="logStatus" />
+      <VueVisibilityTrigger class="highlight" @scrolledIn="logStatus" />
       
       <div class="scroll-mark">scroll back!</div>
     </div>
 </template>
 
 <script>
-import VueScrollState from "../src/vue-scroll-state.vue";
+import VueVisibilityTrigger from "../src/vue-visibility-trigger.vue";
 export default {
   name: "Example1",
   data() {
@@ -28,7 +28,7 @@ export default {
     }
   },
   components: {
-    VueScrollState
+    VueVisibilityTrigger
   }
 };
 </script>

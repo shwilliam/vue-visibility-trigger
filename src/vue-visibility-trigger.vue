@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "VueScrollState",
+  name: "VueVisibilityTrigger",
   data() {
     return {
       showing: false

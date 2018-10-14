@@ -1,21 +1,21 @@
 {
-  "name": "vue-scroll-state",
+  "name": "vue-visibility-trigger",
   "version": "0.1.0",
   "description": "Vue component that helps you run a function when the node comes into view",
   "license": "MIT",
-  "main": "dist/vue-scroll-state.umd.js",
-  "module": "dist/vue-scroll-state.esm.js",
-  "unpkg": "dist/vue-scroll-state.min.js",
+  "main": "dist/vue-visibility-trigger.umd.js",
+  "module": "dist/vue-visibility-trigger.esm.js",
+  "unpkg": "dist/vue-visibility-trigger.min.js",
   "browser": {
-    "./sfc": "src/vue-scroll-state.vue"
+    "./sfc": "src/vue-visibility-trigger.vue"
   },
   "scripts": {
-    "dev": "vue serve ./src/vue-scroll-state.vue",
+    "dev": "vue serve ./src/vue-visibility-trigger.vue",
     "example": "vue serve ./examples/example-1.vue",
     "build": "npm run build:unpkg & npm run build:es & npm run build:umd",
-    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-scroll-state.umd.js",
-    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-scroll-state.esm.js",
-    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-scroll-state.min.js"
+    "build:umd": "rollup --config build/rollup.config.js --format umd --file dist/vue-visibility-trigger.umd.js",
+    "build:es": "rollup --config build/rollup.config.js --format es --file dist/vue-visibility-trigger.esm.js",
+    "build:unpkg": "rollup --config build/rollup.config.js --format iife --file dist/vue-visibility-trigger.min.js"
   },
   "dependencies": {},
   "devDependencies": {

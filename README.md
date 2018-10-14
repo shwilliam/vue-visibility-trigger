@@ -1,1 +1,1 @@
-# vue-scroll-state
+# vue-visibility-trigger
