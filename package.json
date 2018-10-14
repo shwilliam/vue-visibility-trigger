@@ -1,7 +1,7 @@
 {
   "name": "vue-scroll-state",
   "version": "0.1.0",
-  "description": "",
+  "description": "Vue component that helps you run a function when the node comes into view",
   "license": "MIT",
   "main": "dist/vue-scroll-state.umd.js",
   "module": "dist/vue-scroll-state.esm.js",

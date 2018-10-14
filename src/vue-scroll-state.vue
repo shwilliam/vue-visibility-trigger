@@ -2,16 +2,32 @@
 export default {
   name: "VueScrollState",
   data() {
-    return {};
+    return {
+      showing: false
+    };
+  },
+  methods: {
+    checkNodeVisibility() {
+      const { scrollY, innerHeight } = window;
+      const isShowing = scrollY + innerHeight > this.$el.offsetTop;
+
+      if (isShowing !== this.showing) {
+        this.$emit("scrolledIn", isShowing);
+        this.showing = isShowing;
+      }
+    }
+  },
+  created() {
+    window.addEventListener("scroll", this.checkNodeVisibility);
+    window.addEventListener("resize", this.checkNodeVisibility);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.checkNodeVisibility);
+    window.removeEventListener("resize", this.checkNodeVisibility);
   }
 };
 </script>
 
 <template>
-    <div class="vue-scroll-state">
-        hello world
-    </div>
+  <span/>
 </template>
-
-<style scoped>
-</style>
