@@ -1,6 +1,6 @@
 # vue-visibility-trigger
 
-Vue component that helps you run a function when the node comes into view.
+> Vue component that emits an event when scrolled into view
 
 ## Installation
 
@@ -18,12 +18,12 @@ $ npm install --save 'vue-visibility-trigger'
 
 ## Usage
 
-Import, register and place the component in your Vue app. Attach a function to react to the 'scrollIn' event with 'v-on:scrollIn="..."' or '@scrollIn="..."'.
+Import, register and place the component in your Vue app. Attach a function to react to the 'scrolledIn' event with 'v-on:scrolledIn="..."' or '@scrolledIn="..."'.
 
 ```
 <template>
   ...
-    <vue-visibility-trigger @scrollIn="doSomething" />
+    <vue-visibility-trigger @scrolledIn="doSomething" />
   ...
 </template>
 

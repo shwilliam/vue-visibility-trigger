@@ -1,7 +1,7 @@
 {
   "name": "vue-visibility-trigger",
   "version": "0.1.1",
-  "description": "Vue component that helps you run a function when the node comes into view",
+  "description": "Vue component that emits an event when scrolled into view",
   "license": "MIT",
   "main": "dist/vue-visibility-trigger.umd.js",
   "module": "dist/vue-visibility-trigger.esm.js",
