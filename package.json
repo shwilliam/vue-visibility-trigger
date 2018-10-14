@@ -1,6 +1,6 @@
 {
   "name": "vue-visibility-trigger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Vue component that helps you run a function when the node comes into view",
   "license": "MIT",
   "main": "dist/vue-visibility-trigger.umd.js",
