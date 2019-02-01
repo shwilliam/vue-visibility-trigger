@@ -7,13 +7,13 @@
 Install the package from npm by running
 
 ```
-$ yarn add 'vue-visibility-trigger'
+$ yarn add vue-visibility-trigger
 ```
 
 or
 
 ```
-$ npm install --save 'vue-visibility-trigger'
+$ npm install --save vue-visibility-trigger
 ```
 
 ## Usage
