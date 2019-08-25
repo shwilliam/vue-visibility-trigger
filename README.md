@@ -2,6 +2,8 @@
 
 > Vue component that emits an event when scrolled into view
 
+<img src="https://user-images.githubusercontent.com/38357771/63648086-63730600-c6df-11e9-95b2-69cc978e0f2e.gif" alt="Usage example" width="360"/>
+
 [![vue-visibility-trigger demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/qkyolorn6w?module=%2Fsrc%2FApp.vue)
 
 ## Installation
